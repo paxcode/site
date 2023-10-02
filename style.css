@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'OriginTech';
+    src: url('fonts/origintech.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   font-family: 'Karla', sans-serif;
   background-image: url("bg.jpg");
@@ -5,15 +12,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
-  padding-bottom: 75px; }
-  @media (min-width: 768px) {
-    body {
-      padding-bottom: 110px; } }
+  padding-bottom: 0px; }
 
-.navbar-brand {
-  margin-right: 0; }
-  .navbar-brand img {
-    height: 21px; }
+.page-title {
+  font-family: 'OriginTech', sans-serif;
+  text-align: right;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 33.33%;
+}
+
+.page-description {
+  font-size: 22px;
+  text-align: right;
+  }
 
 .navbar-dark {
   padding-top: 35px;
@@ -31,42 +44,3 @@ body {
   @media (max-width: 767px) {
     .navbar-dark {
       padding-bottom: 0; } }
-
-.page-title {
-  font-size: 80px;
-  font-weight: bold;
-  margin-bottom: 6px; }
-  @media (max-width: 767px) {
-    .page-title {
-      font-size: 35px;
-      margin-bottom: 14px; } }
-
-.page-description {
-  max-width: 465px;
-  font-size: 18px;
-  margin-bottom: 59px; }
-  @media (max-width: 767px) {
-    .page-description {
-      font-size: 14px; } }
-
-p {
-  font-size: 14px;
-  margin-bottom: 21px; }
-
-.footer-social-links .social-link {
-  display: inline-block;
-  text-align: center;
-  line-height: 40px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  color: #000000;
-  margin-right: 16px;
-  transition: all 0.3s ease-in-out; }
-  .footer-social-links .social-link:last-child {
-    margin-right: 0; }
-  .footer-social-links .social-link:hover {
-    text-decoration: none;
-    background-color: #000000;
-    color: #ffffff; }
