@@ -11,20 +11,21 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #ffffff;
+  background-color: #010302;
+  color: #EDEAE0;
   padding-bottom: 0px; }
 
 .page-title {
   font-family: 'OriginTech', sans-serif;
   text-align: right;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 33.33%;
+  margin-top: 40%;
 }
 
 .page-description {
-  font-size: 22px;
+  font-size: 20px;
   text-align: right;
   }
 
@@ -32,11 +33,11 @@ body {
   padding-top: 35px;
   padding-bottom: 35px; }
   .navbar-dark .navbar-text {
-    color: #ffffff;
+    color: #EDEAE0;
     opacity: 1;
-    padding: 0 20px;
-    border-right: 1px solid #ffffff;
-    font-size: 18px;
+    padding: 0 10px;
+    border-right: 1px solid #EDEAE0;
+    font-size: 16px;
     font-weight: bold;
     text-align: center; }
     .navbar-dark .navbar-text:last-child {
